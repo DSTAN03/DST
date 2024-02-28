@@ -1,25 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 25px;
 }
 
 button {
-    padding: 10px;
-    margin-right: 20px;
-    background-color: #287cfa;
+    padding: 15px;
+    margin-right: 25px;
+    background-color: #0f50b1;
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px; 
+    border-radius: 10px; 
 }
 
 
 button:hover {
-    background-color: #45a049;
+    background-color: #a9d4ab;
 }
 
 div {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 h2 {

@@ -1,9 +1,11 @@
-function add(){
+function add()
+{
     var image = document.getElementById("image").files[0];
     var pro = document.getElementById("pro").value;
     var pri = document.getElementById("pri").value;
     var reader = new FileReader();
-    reader.onload = function(e) {
+    reader.onload = function(e) 
+    {
         var imgSrc = e.target.result;
         var cartItem = document.createElement('li');
         cartItem.className = 'cart-item';
